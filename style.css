@@ -83,10 +83,9 @@ a {
 .donation {
   width: 100vw;
   height: 80vh;
-  color: #121212;
 }
 
-.donation-heading {
+.heading-two {
   font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
@@ -142,6 +141,7 @@ a {
   width: 20%;
   margin: 40px 40% 15px;
   border: none;
+  outline: none;
   color: #B3B3B3;
   text-align: center;
 }
@@ -153,5 +153,64 @@ a {
 }
 
 .donation-btn {
-  margin: 26px 45%;
+  margin: 26px 45% 0px;
+}
+
+/* Planning Section */
+
+
+.plan p {
+  color: #707070;
+  margin-top: 22px;
+}
+
+.plan-category{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 40px;
+}
+
+.plan-items {
+  width: 300px;
+  height: 290px;
+  border-radius: 5px;
+}
+
+.plan-icon {
+  width: 55px;
+  height: 50px;
+  margin: 30px 0px 30px 15px ;
+}
+
+.plan-description {
+  margin-left: 15px;
+}
+
+.heading-three {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 32px;
+  color: #121212;
+}
+
+.plan-items-text {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #707070;
+}
+
+.item1 {
+  background: rgba(79, 157, 166, 0.2);
+}
+
+.item2 {
+  background: rgba(255, 89, 89, 0.2);
+}
+
+.item3 {
+  background: rgba(255, 244, 214, 0.7);
 }
