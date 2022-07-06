@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Reuseable Components */
+
+.text {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 12px;
+  position: absolute; 
+  width: 120px;
+  height: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  background: #FF5959;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.btn:hover {
+  background: transparent;
+  color: #FF5959;
+  width: 116px;
+  height: 16px;
+  border: 2px solid #FF5959;
+}
+
+a {
+  font-family: 'Inter';
+  text-decoration: none;
+  font-style: normal;
+  
+  line-height: 24px;
+}
+
+
+/* Heading Section */
+
+
+.heading {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),
+              url(images/donation13.jpg) no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;            
+}
+
+.heading-box {
+  width: 640px;
+}
+
+.heading-box h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+
+.heading-btn {
+  position: absolute;
+  top: 410px;
+  left: 540px;
+}
+
+/* Donation Section */
+.donation {
+  width: 100vw;
+  height: 80vh;
+  color: #121212;
+}
+
