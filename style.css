@@ -76,9 +76,7 @@ a {
 }
 
 .heading-btn {
-  position: absolute;
-  top: 410px;
-  left: 540px;
+  margin: 30px 252px;
 }
 
 /* Donation Section */
